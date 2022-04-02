@@ -38,7 +38,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
-
+            <Button 
+                Text="Read database"
+                FontAttributes="Bold"
+                Grid.Row="3"
+                SemanticProperties.Hint="Initialize Databse"
+                Clicked="OnReadDatabaseClicked"
+                HorizontalOptions="Center" />
             <Image Grid.Row="4"
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"

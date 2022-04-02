@@ -1,0 +1,145 @@
+{
+  "Category": {
+    "CategoryId": "uniqueidentifier",
+    "Name": "string",
+    "Description": "string",
+    "Color": "DateTime",
+    "InsertDate": "DateTime",
+    "UpdateDate": "DateTime",
+    "DeleteDate": "DateTime",
+    "IsDefault": "Bool"
+  },
+  "Reminder": {
+    "ReminderId": {
+      "Type": "Guid"
+    },
+    "ReminderIntervalTypeId": {
+      "Type": "Guid"
+    },
+    "ReminderValue": {
+      "Type": "Int"
+    },
+    "InsertDate": {
+      "Type": "DateTime"
+    },
+    "UpdateDate": {
+      "Type": "DateTime"
+    },
+    "DeleteDate": {
+      "Type": "DateTime"
+    }
+  },
+  "ReminderTypeIntervalType": {
+    "ReminderIntervalTypeId": {
+      "Type": "Guid"
+    },
+    "ReminderIntervalTypeName": {
+      "Type": "Text"
+    },
+    "InsertDate": {
+      "Type": "DateTime"
+    },
+    "UpdateDate": {
+      "Type": "DateTime"
+    },
+    "DeleteDate": {
+      "Type": "DateTime"
+    }
+  },
+  "System": {
+    "AppVersion": {
+      "Type": "Text"
+    },
+    "NotificationTime": {
+      "Type": "DateTime"
+    },
+    "UserName": {
+      "Type": "Text"
+    },
+    "ThemeId": {
+      "Type": "Guid"
+    },
+    "DbPassword": {
+      "Type": "Text"
+    },
+    "TaskAmount": {
+      "Type": "Int"
+    }
+  },
+  "Theme": {
+    "ThemeId": {
+      "Type": "Guid"
+    },
+    "TextPrimaryColor": {
+      "Type": "Text"
+    },
+    "TextSecondaryColor": {
+      "Type": "Text"
+    },
+    "BackgroundColor": {
+      "Type": "Text"
+    },
+    "ForegroundColor": {
+      "Type": "Text"
+    },
+    "InsertDate": {
+      "Type": "DateTime"
+    },
+    "UpdateDate": {
+      "Type": "DateTime"
+    },
+    "DeleteDate": {
+      "Type": "DateTime"
+    }
+  },
+  "ToDo": {
+    "ToDoId": {
+      "Type": "Guid"
+    },
+    "Title": {
+      "Type": "Text"
+    },
+    "Description": {
+      "Type": "Text"
+    },
+    "CategoryId": {
+      "Type": "Guid"
+    },
+    "ReminderId": {
+      "Type": "Guid"
+    },
+    "DoneDate": {
+      "Type": "DateTime"
+    },
+    "IsDaily": {
+      "Type": "Bool"
+    },
+    "IsWeekly": {
+      "Type": "Bool"
+    },
+    "IsMonthly": {
+      "Type": "Bool"
+    },
+    "IsQuarterly": {
+      "Type": "Bool"
+    },
+    "IsHalfYear": {
+      "Type": "Bool"
+    },
+    "IsYearly": {
+      "Type": "Bool"
+    },
+    "IsCustom": {
+      "Type": "Bool"
+    },
+    "InsertDate": {
+      "Type": "DateTime"
+    },
+    "UpdateDate": {
+      "Type": "DateTime"
+    },
+    "DeleteDate": {
+      "Type": "DateTime"
+    }
+  }
+}

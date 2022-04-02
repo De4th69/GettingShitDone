@@ -1,4 +1,6 @@
-﻿namespace GettingShitDone;
+﻿using GettingShitDone.Database;
+
+namespace GettingShitDone;
 
 public partial class MainPage : ContentPage
 {
@@ -16,5 +18,12 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterLabel.Text);
 	}
-}
 
+	private async void OnReadDatabaseClicked(object sencer, EventArgs e)
+    {
+		SQLiteRepository sqLiteRepository = new SQLiteRepository();
+
+		var sqlite = await sqLiteRepository.InitializeDb();
+
+    }
+}
